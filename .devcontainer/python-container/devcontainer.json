@@ -1,0 +1,8 @@
+{
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "rest-api",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/python-src"
+}

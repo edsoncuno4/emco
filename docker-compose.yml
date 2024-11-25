@@ -1,0 +1,15 @@
+version: '3'
+services:
+  rest-api:
+    image: mcr.microsoft.com/devcontainers/python:1-3.12-bookworm
+    volumes:
+      - .:/workspace:cached
+    command: sleep infinity
+
+  frontend:
+    image: mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm
+    volumes:
+      - .:/workspace:cached
+    command: sleep infinity
+    links:
+      - rest-api

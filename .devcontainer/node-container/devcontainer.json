@@ -1,0 +1,16 @@
+{
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "frontend",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/node-src",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-next",
+                "angular.ng-template"
+            ]
+        }
+    }
+}
